@@ -13,7 +13,7 @@ brew install gnuplot
 
 Install the library:
 ```bash
-v install https://github.com/hungrybluedev/vplot
+v install --git https://github.com/hungrybluedev/vplot
 ```
 
 Import `vplot` library:
