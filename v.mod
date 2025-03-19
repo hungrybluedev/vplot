@@ -4,5 +4,5 @@ Module {
 	dependencies: [],
 	author: 'Erdet Nasufi, erdetn',
 	version: '1.0',
-	repo_url: 'https://github.com/erdetn/vplot'
+	repo_url: 'https://github.com/hungrybluedev/vplot'
 }
