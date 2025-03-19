@@ -188,6 +188,7 @@ pub fn write_csv(filename string, x []f64, y []f64, title string) !bool {
 }
 
 pub struct PlotSession {
+pub mut:
 	title   string
 	style   string
 	label_x string
