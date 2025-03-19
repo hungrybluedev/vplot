@@ -2,14 +2,26 @@
 vplot is a wrapper for GNU Plot (gnuplot_i). The source of `gnuplot_i` I have downloaded from [this link](http://ndevilla.free.fr/gnuplot/). Files listed on gnuplot_i are taken from downloaded sources, including the license file.
 
 # Dependecies
-First, you need to install the `gnuplot`.
+First, you need to install the `gnuplot` library.
+
+On MacOS, you can install it using `brew`:
+```bash
+brew install gnuplot
+```
 
 # Get started
+
+Install the library:
+```bash
+v install https://github.com/hungrybluedev/vplot
+```
 
 Import `vplot` library:
 ```v
 import vplot
 ```
+
+Use the above if you installed it through the Github repository link.
 
 Declare a new Plot object:
 ```v
@@ -32,8 +44,6 @@ Whenever you start a new plot session, you should closed it once you are done wi
 # Change log:
 - Removed all examples and moved to [vplot-playground](https://github.com/erdetn/vplot-playground/)
 - Adding support for multiplots (similar to subplots in GNU Octave). Check example [multiplot.v](https://github.com/erdetn/vplot-playground/blob/main/multiplot.v)
-
-![Example 01](playground/ex01.png)
 
 # Documentation
 | Function | Description |
